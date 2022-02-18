@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
-    "start:dev": "nodemon index"
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/Dima-Shvets/goit-nodejs-hw-1#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "commander": "^9.0.0",
+    "uuid": "^8.3.2",
+    "yargs": "^17.3.1"
   }
 }
